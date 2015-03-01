@@ -1,0 +1,4 @@
+---
+layout: default
+---
+<h1>Draft demo page</h1>

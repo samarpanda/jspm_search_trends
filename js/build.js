@@ -462,7 +462,7 @@ System.register("lib/trends-view", [], function($__export) {
         for (var item in items) {
           str += ("<h2>" + mapping[item] + "</h2><ul>");
           str += items[item].map((function(searchStr) {
-            return ("<li>" + searchStr + "</li>");
+            return ("<li><a href=\"https://www.google.com/search?q=" + searchStr + "\">" + searchStr + "</a></li>");
           })).join("");
           str += "</ul>";
         }
